@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <!-- Dominique Houston -->
-<!-- VFW 1306 -->
-<!-- Assignment 4 -->
+<!-- MIU 1307 -->
+<!-- Assignment 1 -->
 
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="description" content="Keep track of the books, magazines, articles, and blogs you've read." />
+<meta name="description" content="Keep track of what you read." />
 <meta name="keywords" content="bookeep,track,books,reading,logger" />
 <meta name="ROBOTS" content="index, nofollow" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="Dominique Houston" />
-<title>Bookeep</title>
+<title>ReadKeep</title>
 <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -19,22 +19,48 @@
 <div id="container">
   <div id="wrap"> 
     <! -- Begin Header -- >
-    <header> <a href="index.html">
-      <h1>Bookeep</h1>
-      </a>
-      <p>Keep track of the books, magazines, articles, and blogs you've read.</p>
+    <header> 
+	    <div id="boundingBox">
+	    <a href="index.html">
+	    <img src="img/cta-logo.png" alt="Readkeep" class="cta-logo"/></a> 
+	    </div>
+	    <a href="additem.html"><img src="img/cta-button.png" alt="Add A New Title" class="cta-button" /></a> 
     </header>
     <! -- End Header -- > 
     
-    <! -- Begin Navigation -- >
-    <nav>
-      <h2>Menu</h2>
-      <ul id="appNav">
-        <li><a href="additem.html">Add New Title</a></li>
-      </ul>
-    </nav>
-    <! -- End Navigation -- > 
+    <div class="clear"></div>
     
+    <! -- Begin Browse Area -- >
+    <div id="browse">
+    	<div id="browseBox">
+    <h3>Browse By Platform</h3>
+    <hr size="1" color="#000" width="90%" />
+    
+    	<h4>Books</h4>
+    	<ul id="books">
+    	<li><a href="">&#187; Book: Paperback</a></li>
+    	<li><a href="">&#187; Book: Hardcover</a></li>
+    	<li><a href="">&#187; Book: Other</a></li>
+    	<li><a href="">&#187; View All</a></li>
+    	</ul>
+    	
+    	<h4>Digital</h4>
+    	<ul id="digital">
+    	<li><a href="">&#187; Digital: PC/Notebook</a></li>
+    	<li><a href="">&#187; Digital: Tablet</a></li>
+    	<li><a href="">&#187; Digital: Other</a></li>
+    	<li><a href="">&#187; View All</a></li>
+    	</ul>
+    	</div>
+    </div>
+    <! -- End Browse Area -- >
+    
+    
+    <! -- Begin Search Area -- >
+    <div id="search">
+    	<input type="text" class="footer-search" value="search readkeep...">
+    </div>
+    <! -- End Search Area -- >    
   </div>
   <! -- Begin Footer -- >
   <footer>
