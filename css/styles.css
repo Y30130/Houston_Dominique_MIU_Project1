@@ -51,8 +51,8 @@ a:visited {
 	color:#054e57;
 }
 a:hover,a:focus {
-	color:#AC2B50;
-		cursor:hand;
+	color:#2194a2;
+	cursor:hand;
 }
 a:active {
 	color: #FFF;
@@ -130,6 +130,7 @@ nav ul {
 	color:teal;
 	border-bottom:1px solid #002020;
 	padding:5px 20px;
+	font-size:12px;
 }
 nav ul:hover {
 	list-style-type:square;
@@ -229,22 +230,24 @@ nav ul li {
 	color: #111;
 }
 /* Form Styles */
+#formBox {margin:0px auto;width:auto;min-width: 320px;}
+
 #errors {
 	color:red;
 }
 form {
 	color:#111;
 	text-shadow:none;
-	margin:0px;
+	margin:0px auto;
 	overflow:hidden;
 }
 #BookeepTitle {
-	width:50%;
-	margin:0px auto;
+	width:auto;
+	margin:0px -15px;
 }
 form legend {
 	clear:both;
-	color:#FFF;
+	color:#111;
 	text-transform:uppercase;
 	margin:0px auto;
 	font-size:20px;
@@ -258,9 +261,7 @@ form .headLabel {
 	margin-bottom:20px;
 }
 form fieldset {
-	border:0px #002020 solid;
-	max-width:768px;
-	min-width:300px;
+	border:0px solid;
 }
 form#bookeepForm p {
 	margin:10px 0px 0px 0px;
@@ -268,7 +269,7 @@ form#bookeepForm p {
 	clear:both;
 }
 form#bookeepForm label {
-	background:#95002B;
+	background:#006672;
 	color:#FFF;
 	padding:10px 10px;
 	clear:both;
@@ -298,13 +299,13 @@ form#bookeepForm textarea {
 	float:left;
 }
 input#submit {
-	margin-right:10%!important;
-	background:#95002B;
+	margin-left:10%!important;
+	background:#006672;
 	color:#FFF;
 	text-transform:uppercase;
 	font-weight:bold;
 	font-size:14px;
-	float:right!important;
+	float:left!important;
 }
 #platforms {
 	clear:both;
@@ -331,7 +332,7 @@ input#submit {
 	width:auto;
 	padding-left:2.333%;
 	padding-right:2.333%;
-	color:#FFC473;
+	color:#FFF;
 }
 #items ul {
 	list-style-type:none;
@@ -341,9 +342,10 @@ input#submit {
 #items ul li {
 	list-style-type:none;
 	margin-left:0px;
-	background:#007143;
+	background:#AAA;
 	margin-left:-13px;
 	padding-left:33px;
+	word-wrap: break-word;
 }
 #items ul li ul {
 	margin-bottom:25px;
