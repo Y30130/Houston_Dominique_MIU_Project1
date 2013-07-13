@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <!-- Dominique Houston -->
-<!-- VFW 1306 -->
-<!-- Assignment 3 -->
-
+<!-- MIU 1307 -->
+<!-- Assignment 1 -->
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="description" content="Keep track of the books, magazines, articles, and blogs you've read." />
-<meta name="keywords" content="bookeep,track,books,reading,logger" />
-<meta name="ROBOTS" content="index, nofollow" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="author" content="Dominique Houston" />
-<link href="css/styles.css" rel="stylesheet" />
-<title>Bookeep</title>
+<meta charset="utf-8"/>
+<meta name="description" content="Keep track of what you read."/>
+<meta name="keywords" content="bookeep,track,books,reading,logger"/>
+<meta name="ROBOTS" content="index, nofollow"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="author" content="Dominique Houston"/>
+<title>ReadKeep</title>
+<link href="css/styles.css" rel="stylesheet"/>
 </head>
 <body>
 <! -- Begin Container --  >
-<div id="container"> 
-  <! -- Begin Header -- >
-  <div id="wrap">
-    <header> <a href="index.html">
-      <h1>Bookeep</h1>
-      </a>
-      <p>Keep track of the books, magazines, articles, and blogs you've read.</p>
-    </header>
-    <! -- End Header -- > 
+<div id="container">
+	<div id="wrap">
+		<! -- Begin Header -- >
+		<header>
+		<div id="boundingBox">
+			<a href="index.html">
+			<img src="img/cta-logo.png" alt="Readkeep" class="cta-logo"/></a>
+		</div>
+		</header>
+		<! -- End Header -- >
+		<div class="clear">
+		</div>
     
     <! -- Begin  Bottom Navigation -- >
     <nav>
@@ -41,17 +43,13 @@
     <! -- End Error Messages -- > 
     
     <! -- Begin Form -- >
+    <div id="formBox">
     <form action="#" method="post" id="bookeepForm">
       <fieldset id="BookeepTitle">
 			<ul id="errors"></ul>
-        <legend>
-	        <strong>
-	        	<medium>Save A Title to Bookeep</medium>
-	        </strong>
-        </legend>
         <ul id="entry">
         <li>
-          <label class="headLabel"><strong>Bookeep Title Info</strong></label>
+          <label class="headLabel"><strong>ReadKeep Title Details</strong></label>
         </li>
         
         <li>
@@ -147,15 +145,18 @@
        
       </fieldset>
     </form>
+    </div>
     <! -- End Form  -- > 
     
     
   </div>
   <! -- Begin Footer -- >
-  <footer>
-    
-  </footer>
-  <! -- End Footer --> 
+	<footer>
+	<p>
+		Copyright &copy; 2013 Dominique Houston
+	</p>
+	</footer>
+	<! -- End Footer -->
 </div>
 <! -- End Container --> 
 <script src="js/json.js" type="text/javascript"></script>
